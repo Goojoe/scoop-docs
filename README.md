@@ -168,6 +168,10 @@ scoop bucket add jetbrains
 scoop bucket add scoop-bucket https://github.com/canvascat/scoop-bucket
 # 国内常用软件
 scoop bucket add scoopet https://github.com/ivaquero/scoopet
+# epic
+scoop bucket add ACooper81 https://github.com/ACooper81/scoop-apps
+# 国内
+scoop bucket add dorado https://github.com/chawyehsu/dorado
 ```
 
 ### 第三方bucket
@@ -412,6 +416,7 @@ ERROR & 'D:\Scoop\Applications\apps\aria2\current\aria2c.exe' --input-file='D:\S
 scoop install -g nodejs-lts
 scoop install -g python
 scoop install -g oraclejdk-lts
+scoop install -g dotnet-desktop-runtime Microsoft.NETFramework3.5-ManualInstall
 # 工具软件
 scoop install -g rclone
 scoop install -g adb
@@ -419,6 +424,7 @@ scoop install -g ffmpeg
 scoop install -g bbdown
 # 字体
 scoop install FiraCode
+scoop install Meslo-NF
 # 自动补全
 scoop install scoop-completion
 # 标签增强
@@ -430,6 +436,13 @@ scoop install virtualbox-with-extension-pack
 scoop install obs-studio
 # 百度网盘
 scoop install baidunetdisk
+# 图床
+scoop install picgo
+# Office
+scoop install office-tool-plus
+# anki
+scoop install anki
+scoop install powertoys
 scoop install 
 scoop install 
 ```
