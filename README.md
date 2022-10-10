@@ -164,6 +164,7 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 scoop bucket add java
 scoop bucket add jetbrains
+scoop bucket add versions
 # bbdwon
 scoop bucket add scoop-bucket https://github.com/canvascat/scoop-bucket
 # 国内常用软件
@@ -172,6 +173,8 @@ scoop bucket add scoopet https://github.com/ivaquero/scoopet
 scoop bucket add ACooper81 https://github.com/ACooper81/scoop-apps
 # 国内
 scoop bucket add dorado https://github.com/chawyehsu/dorado
+# quicker
+scoop bucket add tomato https://github.com/zhoujin7/tomato
 ```
 
 ### 第三方bucket
@@ -417,6 +420,7 @@ scoop install -g nodejs-lts
 scoop install -g python
 scoop install -g oraclejdk-lts
 scoop install -g dotnet-desktop-runtime Microsoft.NETFramework3.5-ManualInstall
+scoop install vcredist-aio
 # 工具软件
 scoop install -g rclone
 scoop install -g adb
@@ -443,8 +447,12 @@ scoop install office-tool-plus
 # anki
 scoop install anki
 scoop install powertoys
-scoop install 
-scoop install 
+scoop install qqmusic
+scoop install Quicker
+scoop install scoop-search
+scoop install winscp
+scoop install obsidian
+scoop install steam
 ```
 
 
